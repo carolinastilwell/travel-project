@@ -1,4 +1,66 @@
-h1 {
-  color: red;
-  font-family: overpass;
+body {
+  font-family: poppins;
+  background-color: #4c4819;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i0.wp.com/enthusiasticgardener.com/wp-content/uploads/2019/11/19-11-19-Telegraph-Hill-Park-LR-3893.jpg?resize=1200%2C800&ssl=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  padding: 100px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 65px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+header h3 {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+header button {
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+header a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 50px;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h3 {
+    font-size: 18px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
 }

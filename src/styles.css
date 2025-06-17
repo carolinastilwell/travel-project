@@ -213,8 +213,19 @@ footer p {
     font-size: 20px;
   }
 
+  section {
+    padding: 30px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+
+  iframe {
+    max-width: 100%;
   }
 }

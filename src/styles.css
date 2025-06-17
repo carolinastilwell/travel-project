@@ -9,9 +9,13 @@ body {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px 100px;
+}
+
+section.secondary {
+  background: rgba(246, 240, 240, 0.832);
 }
 
 header {
@@ -41,16 +45,21 @@ header h3 {
   letter-spacing: 3px;
 }
 
-header button {
-  border-radius: 8px;
-  padding: 10px 20px;
-}
-
 header a {
-  text-transform: uppercase;
-  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #4c4819;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
   text-decoration: none;
-  font-size: 12px;
+  text-transform: uppercase;
+  background: white;
+  border-radius: 8px;
+  border: none;
 }
 
 main {
@@ -58,6 +67,55 @@ main {
   color: #4c4819;
   margin: 0;
   font-size: 14px;
+  line-height: 2;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #4c4819;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #4c4819;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  color: #4c4819;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #4c4819;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4c4819;
+  opacity: 0.7;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .img-park {
@@ -66,6 +124,47 @@ main {
   margin: 0 auto;
 }
 
+.card img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  max-height: 400px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 60px;
+}
+.grid-footer {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  line-height: 1;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #4c4819;
+  text-decoration: none;
+}
 footer {
   color: white;
   background-image: linear-gradient(
@@ -77,18 +176,6 @@ footer {
   background-size: cover;
   font-size: 12px;
   padding: 50px;
-}
-
-.grid {
-  display: grid;
-  grid-gap: 60px;
-}
-.grid3 {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-
-.grid2 {
-  grid-template-columns: 1fr 1fr;
 }
 
 footer ul {
